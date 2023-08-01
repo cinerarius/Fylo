@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -18,8 +18,8 @@
         <img class="dark:invert h-40 w-40 mx-auto md:mx-0 md:absolute top-10 left-10" src="./assets/Logo.svg" alt="">
         <!--Menu-->
         <div class="flex item-center justify-center space-x-4 md:space-x-10 md:absolute top-28 right-10">
-            <a class="font-sans font-bold hover:text-cyan-300" href="#">Features</a>
-            <a class="font-sans font-bold hover:text-cyan-300" href="#">Testimonial</a>
+            <a class="font-sans font-bold hover:text-cyan-300" href="#features">Features</a>
+            <a class="font-sans font-bold hover:text-cyan-300" href="#email-list">Get Email</a>
         </div>
     </header>
     <!--Hero Section-->
@@ -39,7 +39,7 @@
             </button>
         </div>
     </section>
-    <section class="bg-contain bg-bottom -mt-32 mb-10 md:-mt-20 md:mb-20">
+    <section class="bg-contain bg-bottom -mt-32 mb-10 md:-mt-20 md:mb-20" id="features">
         <div class="grid gap-20 md:grid-cols-2">
             <div class="container mx-auto space-y-5">
                 <img class="mx-auto object-cover h-40 w-40 bg-cyan-300 p-5 rounded-lg hover:invert hover:bg-transparent hover:border border-red-300 duration-200"
@@ -79,7 +79,7 @@
             </div>
         </div>
     </section>
-    <section class="container m-6 max-w-lg bg-zinc-950 rounded-xl mx-auto md:max-w-xl">
+    <section class="container m-6 max-w-lg bg-zinc-950 rounded-xl mx-auto md:max-w-xl" id="email-list">
         <div class="flex flex-col p-5 space-y-5 md:flex-row">
             <img class="object-cover w-52 h-36 mx-auto rounded-xl md:mx-5 md:ml-1 md:h-52 md:w-36 hover:scale-110 duration-200"
                 src="./assets/image5.avif" alt="">
@@ -95,7 +95,7 @@
                     class="flex flex-col items-center justify-center space-y-4 md:flex-row md:space-x-4 md:space-y-0 md:justify-start">
                     <input
                         class="text-black py-2 px-5 rounded-lg focus:outline-none placeholder:text-center md:placeholder:text-left"
-                        type="text" placeholder="Enter Your Email">
+                        type="text" placeholder="example@email.com">
                     <button
                         class="font-sans bg-cyan-300 py-2 px-5 rounded-lg hover:bg-transparent hover:outline outline-1 outline-cyan-300 duration-200">Get
                         Email</button>
